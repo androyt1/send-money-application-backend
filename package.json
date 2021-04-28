@@ -1,0 +1,25 @@
+{
+  "name": "send-money-application-backend",
+  "version": "1.0.0",
+  "description": "Send money to  any bank account or mobile in Ghana and Nigeria with ease. Built with Node js, MongoDB, redux and  and React",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tweneboah/send-money-application-backend.git"
+  },
+  "author": "iNovotek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tweneboah/send-money-application-backend/issues"
+  },
+  "homepage": "https://github.com/tweneboah/send-money-application-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.6"
+  }
+}
